@@ -1,0 +1,43 @@
+faire des requetes de selection sur la table,
+
+			INSERT INTO "table" ("nom") VALUES ('Exemple de nom');
+
+
+faire des requetes de mise à jour sur la table,
+
+			UPDATE "table" SET "nom" = 'Nouveau nom' WHERE "nom" = "Exemple de nom";
+
+faire des requetes de suppresion sur la table,
+
+			DELETE FROM "table" WHERE "nom" = "Nouveau nom";
+
+faire des requetes de creation sur la table
+
+			INSERT INTO "table" ("nom") VALUES ('Valeur');
+
+faire des requetes de suppression de table,
+
+			DROP TABLE "table2";
+
+faire des requetes de création d'index.
+
+			CREATE INDEX index_nom ON "table"("nom");
+
+
+
+
+
+
+Présentation : 
+
+
+SQLite : un moteur de base de données léger, autonome, facile. sans serveur 
+	permet d'exécuter des requêtes et des opérations de base de données de manière similaire à d'autres bases de données SQL.
+
+
+Commande dotnet migration :
+
+dotnet tool install --global dotnet-ef
+dotnet ef
+dotnet ef migrations add InitialMigration
+dotnet ef database uptdate

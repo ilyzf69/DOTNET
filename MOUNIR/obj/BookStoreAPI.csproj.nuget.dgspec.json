@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Desktop\\ISITECH-2324-B3RPID-NET-main\\MOUNIR\\BookStoreAPI.csproj": {}
+    "C:\\Users\\Utilisateur\\Desktop\\dotnet\\MOUNIR\\BookStoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Desktop\\ISITECH-2324-B3RPID-NET-main\\MOUNIR\\BookStoreAPI.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\dotnet\\MOUNIR\\BookStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ISITECH-2324-B3RPID-NET-main\\MOUNIR\\BookStoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\MOUNIR\\BookStoreAPI.csproj",
         "projectName": "BookStoreAPI",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ISITECH-2324-B3RPID-NET-main\\MOUNIR\\BookStoreAPI.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\MOUNIR\\BookStoreAPI.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ISITECH-2324-B3RPID-NET-main\\MOUNIR\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\MOUNIR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
