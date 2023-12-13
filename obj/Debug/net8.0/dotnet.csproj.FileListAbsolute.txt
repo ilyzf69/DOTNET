@@ -1,0 +1,7 @@
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfo.cs
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Utilisateur\Desktop\dotnet\obj\Debug\net8.0\dotnet.sourcelink.json

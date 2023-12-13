@@ -35,8 +35,9 @@ public class BookController : ControllerBase
 
         var books = new List<Book>
         {
-            new() { Id = 1, Title = "Le seigneur des anneaux", Author = "J.R.R Tolkien" }
-        };
+            new() { Id = 1, Title = "Le seigneur des anneaux", Author = "J.R.R Tolkien" };
+        new() { Id = 2, Title = "Le seigneur des anneaux", Author = "J.R.R Tolkien" }
+    };
 
         return Ok(books);
 

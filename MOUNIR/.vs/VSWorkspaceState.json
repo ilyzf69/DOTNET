@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\bin\\Debug",
-    "\\bin\\Release",
+    "\\bin\\Debug\\net8.0",
     "\\Controllers",
     "\\Entities",
+    "\\obj",
     "\\obj\\Debug",
-    "\\obj\\Release"
+    "\\obj\\Release",
+    "\\Properties"
   ],
-  "SelectedNode": "\\BookStoreAPI.sln",
   "PreviewInSolutionExplorer": false
 }

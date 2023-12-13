@@ -125,3 +125,4 @@ C:\Users\Utilisateur\Desktop\ISITECH-2324-B3RPID-NET-main\MOUNIR\obj\Debug\net8.
 C:\Users\Utilisateur\Desktop\ISITECH-2324-B3RPID-NET-main\MOUNIR\obj\Debug\net8.0\BookStoreAPI.pdb
 C:\Users\Utilisateur\Desktop\ISITECH-2324-B3RPID-NET-main\MOUNIR\obj\Debug\net8.0\BookStoreAPI.genruntimeconfig.cache
 C:\Users\Utilisateur\Desktop\ISITECH-2324-B3RPID-NET-main\MOUNIR\obj\Debug\net8.0\ref\BookStoreAPI.dll
+C:\Users\Utilisateur\Desktop\ISITECH-2324-B3RPID-NET-main\MOUNIR\obj\Debug\net8.0\BookStoreAPI.sourcelink.json
