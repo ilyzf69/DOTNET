@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Desktop\\BookStoreAPI\\BookStoreAPI.csproj": {}
+    "C:\\Users\\Utilisateur\\Desktop\\dotnet\\BookStoreAPI - NON PERSO\\BookStoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Desktop\\BookStoreAPI\\BookStoreAPI.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\dotnet\\BookStoreAPI - NON PERSO\\BookStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\BookStoreAPI\\BookStoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\BookStoreAPI - NON PERSO\\BookStoreAPI.csproj",
         "projectName": "BookStoreAPI",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\BookStoreAPI\\BookStoreAPI.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\BookStoreAPI - NON PERSO\\BookStoreAPI.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\BookStoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\dotnet\\BookStoreAPI - NON PERSO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
