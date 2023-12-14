@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BookStoreAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class AuthorController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
@@ -50,7 +50,7 @@ namespace BookStoreAPI.Controllers
             _dbContext.Authors.Add(author);
             await _dbContext.SaveChangesAsync();
 
-            return Created("api/author", author);
+            return Created("author", author);
         }
 
         [HttpPut("{id}")]

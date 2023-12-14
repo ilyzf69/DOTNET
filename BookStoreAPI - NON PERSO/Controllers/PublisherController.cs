@@ -10,7 +10,7 @@ using System.Linq;
 namespace BookStoreAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class PublisherController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
@@ -43,7 +43,7 @@ namespace BookStoreAPI.Controllers
             _dbContext.Publishers.Add(publisher);
             await _dbContext.SaveChangesAsync();
 
-            return Created("api/publisher", publisher);
+            return Created("publisher", publisher);
         }
 
         [HttpPut("{id}")]

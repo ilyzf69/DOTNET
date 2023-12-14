@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BookStoreAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class ClientController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
@@ -43,7 +43,7 @@ namespace BookStoreAPI.Controllers
             _dbContext.Clients.Add(client);
             await _dbContext.SaveChangesAsync();
 
-            return Created("api/client", _mapper.Map<ClientDto>(client));
+            return Created("client", _mapper.Map<ClientDto>(client));
         }
 
         [HttpPut("{id}")]

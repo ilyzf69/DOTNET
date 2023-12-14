@@ -18,7 +18,7 @@ namespace BookStoreAPI.Controllers; // BookStoreAPI est l'espace de nom racine d
 // Dans ce contexte elle permet de définir que la classe BookController est un contrôleur d'API
 // On parle aussi de decorator / décorateur
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]")]
 public class BookController : ControllerBase
 {
 
@@ -75,7 +75,7 @@ public class BookController : ControllerBase
             await _dbContext.SaveChangesAsync();
 
             // we return the book
-            return Created("api/book", book);
+            return Created("book", book);
 
         }
     }
@@ -83,6 +83,9 @@ public class BookController : ControllerBase
     // TODO: Add PUT and DELETE methods
     // PUT: api/Book/5
     // BODY: Book (JSON)
+
+ 
+
     [HttpPut("{id}")]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]

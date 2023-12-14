@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BookStoreAPI.Controllers
 {
 	[ApiController]
-	[Route("api/[controller]")]
+	[Route("[controller]")]
 	public class GenderController : ControllerBase
 	{
 		private readonly ApplicationDbContext _dbContext;
@@ -43,7 +43,7 @@ namespace BookStoreAPI.Controllers
 			_dbContext.Genders.Add(gender);
 			await _dbContext.SaveChangesAsync();
 
-			return Created("api/gender", _mapper.Map<GenderDto>(gender));
+			return Created("gender", _mapper.Map<GenderDto>(gender));
 		}
 
 		[HttpPut("{id}")]
